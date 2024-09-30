@@ -308,14 +308,88 @@ body {
     background-color: #e0e0e0;
 }
 -------------------
-/* body {
+
+/*footer section*/
+footer {
+    background-color: #121212;
+    color: #0f0f0f;
+    padding: 40px 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+  }
+  
+  .footer-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f9f9f9;
-} */
------------------
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-container div {
+    flex-basis: 20%;
+  }
+  
+  .logo-section img {
+    max-width: 150px;
+  }
+  
+  .logo-section p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  h3 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  ul li a:hover {
+    color: #ffffff;
+  }
+  
+  .contact-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section i {
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  
+  .footer-container i {
+    color: #b3b3b3;
+  }
+  
+  footer .social-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  footer .social-icons a {
+    color: #b3b3b3;
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  
+  footer .social-icons a:hover {
+    color: #ffffff;
+  }
+  
