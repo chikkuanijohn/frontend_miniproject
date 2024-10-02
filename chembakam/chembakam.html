@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chempakam Online Shop</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./chembakam.css">
 </head>
 <body>
@@ -43,236 +44,298 @@
             <img src="./images/modelimg.jpeg" alt="Model Image">
         </div>
     </section>
-
-
------------
-
-<div class="scroll-container"></div>
-    <div class="category">
-        <img src="./images/Inner-Jacket-ch.webp" alt="Inner & Jacket">
-        <p>Inner & Jacket</p>
-    </div>
-    <div class="category">
-        <img src="./images/" alt="Kids">
-        <p>Kids</p>
-    </div>
-    <div class="category">
-        <img src="image3.jpg" alt="Kurtas & Kurtis">
-        <p>Kurtas & Kurtis</p>
-    </div>
-    <div class="category">
-        <img src="image4.jpg" alt="Party Wear">
-        <p>Party Wear</p>
-    </div>
-    <div class="category">
-        <img src="image5.jpg" alt="Sale">
-        <p>Sale</p>
-    </div>
-    <div class="category">
-        <img src="image6.jpg" alt="Sarees">
-        <p>Sarees</p>
-    </div>
-    <div class="category">
-        <img src="image7.jpg" alt="Stitching Service">
-        <p>Stitching Service</p>
-    </div>
-</div>
-
--------------------
-<!-- <div class="best-selling-section">
-    <h1>Best Selling Products</h1>
-    <div class="products-grid">
-        <div class="product-card">
-            <img src="./images/ORE081018.webp" alt="Product 1">
-            <p>Organza top, organza dupatta & Shantoon bottom</p>
-            <span class="price">₹2,550.00</span>
-            <button>Add to cart</button>
+  <!-- Carousel Section -->
+  <section class="savings">
+    <div id="categoriesCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="categories">
+                    <div class="category">
+                        <div class="imge"><img src="/images/sale-ch.webp" alt="Sale"></div>
+                        <p>Sale</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Saree-ch.webp" alt="Sarees"></div>
+                        <p>Sarees</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Stitching-ch.webp" alt="Sarees"></div>
+                        <p>Stitching Service</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Unstitched-sets-ch.webp" alt="Sarees"></div>
+                        <p>Unstitched sets</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Wedding-ch.webp" alt="Sarees"></div>
+                        <p>Weddings</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Inner-Jacket-ch.webp" alt="Sarees"></div>
+                        <p>Inner & Jacket</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Kids-ch.webp" alt="Sarees"></div>
+                        <p>Kids</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Kurtas-ch.webp" alt="Sarees"></div>
+                        <p>Kurtas & Kurtis</p>
+                    </div>
+                    <div class="category">
+                        <div class="imge"><img src="/images/Party-wear-ch.webp" alt="Sarees"></div>
+                        <p>Party wears</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product-card">
-            <img src="./images/product2.webp" alt="Product 2">
-            <p>Pure cotton kota top, pure cotton kota dupatta & Shantoon bottom</p>
-            <span class="price">₹3,290.00</span>
-            <button>Add to cart</button>
+        <a class="carousel-control-prev" href="#categoriesCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#categoriesCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+ <!-- Best Selling Products Section -->
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+ <section class="best-selling-products container mt-5">
+    <h2 class="text-center mb-4">Best Selling Products</h2>
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/ORE081018.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,550.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
         </div>
-        <div class="product-card">
-            <img src="./images/product3.webp" alt="Product 3">
-            <p>Organza top, organza dupatta & Shantoon bottom</p>
-            <span class="price">₹2,850.00</span>
-            <button>Add to cart</button>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product2.webp" class="card-img-top" alt="Cotton kota set">
+                <div class="card-body text-center">
+                    <p class="card-text">Pure cotton kota top, pure cotton kota dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark ">₹3,290.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
         </div>
-        <div class="product-card">
-            <img src="./images/product4.webp" alt="Product 4">
-            <p>Organza top, organza dupatta & Shantoon bottom</p>
-            <span class="price">₹2,750.00</span>
-            <button>Read More</button>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product3.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, Organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark ">₹2,850.00</h5>
+                    <button class="btn btn-outline-dark mr-2">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product4.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,750.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
         </div>
     </div>
-</div> -->
 
--------------------
-<div class="section-title">
-    <h2>Best Selling Products</h2>
-<div class="product-grid">
-    <div class="product">
-        <img src="./images/ORE081018.webp" alt="Product Image 1">
-        <p class="description">Organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,550.00</p>
-        <button class="cart-button">Add to cart</button>
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product5.webp" class="card-img-top" alt="Product 5">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,050.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product6.webp" class="card-img-top" alt="Product 6">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,150.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product7.webp" class="card-img-top" alt="Product 7">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,950.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product8.webp" class="card-img-top" alt="Product 8">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,100.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="product">
-        <img src="./images/product2.webp" alt="Product Image 2">
-        <p class="description">Pure cotton kota top, pure cotton kota dupatta & Shantoon bottom</p>
-        <p class="price">₹3,290.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product3.webp" alt="Product Image 3">
-        <p class="description">Organza top, Organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,850.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product4.webp" alt="Product Image 4">
-        <p class="description">Organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,750.00</p>
-        <button class="cart-button">Read More</button>
-    </div>
-</div>
+</section>
+<section class="browse-button container mt-5">
+    <button class="btn btn-outline-dark">BROWSE MORE PRODUCTS</button>
+</section>
 
-<div class="product-grid">
-    <div class="product">
-        <img src="./images/product5.webp" alt="Product Image 5">
-        <p class="description">Soft organza top,organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,550.00</p>
-        <button class="cart-button">Add to cart</button>
+<!-- new arrival Section -->
+<section class="best-selling-products container mt-5">
+    <h2 class="text-center mb-4">New Arrivals</h2>
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product9.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">organza-top-organza-dupatta-shantoon-bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,550.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product11.webp" class="card-img-top" alt="Cotton kota set">
+                <div class="card-body text-center">
+                    <p class="card-text">organza top,organza dupatta,shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark ">₹3,290.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product10.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">Pure cotton kota top, pure cotton kota dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark ">₹2,850.00</h5>
+                    <button class="btn btn-outline-dark mr-2">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product12.webp" class="card-img-top" alt="Organza top set">
+                <div class="card-body text-center">
+                    <p class="card-text">zellbury silk top,net dupatta,shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,750.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="product">
-        <img src="./images/product6.webp" alt="Product Image 6">
-        <p class="description">Soft organza top,organza dupatta & Shantoon bottom</p>
-        <p class="description"></p>
-        <p class="price">₹2,960.00</p>
-        <button class="cart-button">Add to cart</button>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product13.webp" class="card-img-top" alt="Product 5">
+                <div class="card-body text-center">
+                    <p class="card-text">pure tissue Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,050.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product14.webp" class="card-img-top" alt="Product 6">
+                <div class="card-body text-center">
+                    <p class="card-text">pure tissue Organza top & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,150.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product15.webp" class="card-img-top" alt="Product 7">
+                <div class="card-body text-center">
+                    <p class="card-text">Semi silk top & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹2,950.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="./images/product16.webp" class="card-img-top" alt="Product 8">
+                <div class="card-body text-center">
+                    <p class="card-text">Organza top, organza dupatta & Shantoon bottom<i class="mr-2" ><img src="/images/favourite-icon.png" alt=""></i></p>
+                    <h5 class="text-dark">₹3,100.00</h5>
+                    <button class="btn btn-outline-dark">Add to cart</button>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="product">
-        <img src="./images/product7.webp" alt="Product Image 7">
-        <p class="description">Organza top, Organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,990.00</p>
-        <button class="cart-button">Read More</button>
-    </div>
-    <div class="product">
-        <img src="./images/product8.webp" alt="Product Image 8">
-        <p class="description">Organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹3,650.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-</div>
+</section>
+<section class="browse-button container mt-5">
+    <button class="btn btn-outline-dark">BROWSE MORE PRODUCTS</button>
+</section>
 
 
-
-<div class="new-arrivals-section">
-    <button class="browse-btn">Browse More Products</button>
-    <h2 class="section-title">New Arrivals</h2>
-</div> 
-
-<div class="product-grid">
-    <div class="product">
-        <img src="./images/product10.webp" alt="Product Image 9">
-        <p class="description">Organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,480.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product11.webp" alt="Product Image 10">
-        <p class="description">Organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹2,540.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product11.webp" alt="Product Image 11">
-        <p class="description">Pure cotton kota top,kota dupatta & Shantoon bottom</p>
-        <p class="price">₹2,850.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product12.webp" alt="Product Image 12">
-        <p class="description">Zellbury silk top,net dupatta & Shantoon bottom</p>
-        <p class="price">₹2,350.00</p>
-        <button class="cart-button">Read More</button>
-    </div>
-</div>
-   
-   <div class="product-grid">
-    <div class="product">
-        <img src="./images/product14.webp" alt="Product Image 13">
-        <p class="description"> Pure tissue organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹3,540.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product14.webp" alt="Product Image 14">
-        <p class="description">Pure tissue organza top, organza dupatta & Shantoon bottom</p>
-        <p class="price">₹1,580.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product15.webp" alt="Product Image 15">
-        <p class="description">Demi silk top & Shantoon bottom</p>
-        <p class="price">₹1,550.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-    <div class="product">
-        <img src="./images/product16.webp" alt="Product Image 16">
-        <p class="description">Pure organza top,organza dupatta & Shantoon bottom</p>
-        <p class="price">₹3,450.00</p>
-        <button class="cart-button">Add to cart</button>
-    </div>
-</div>
------------
- <div class="new-arrivals-section"></div>
-    <button class="browse-btn">Browse More Products</button> 
--------------------
 <footer>
     <div class="footer-container">
-      <div class="logo-section">
-        <img src="./images/chembakamicon.jpeg" alt="Chempakam Logo">
-        
-        <p>&copy; All rights reserved by Chempakam, Cochin, India.</p>
-      </div>
-  
-      <div class="solutions-section">
-        <h3>Solutions</h3>
-        <ul>
-          <li><a href="#">My account</a></li>
-          <li><a href="#">Track Your Order</a></li>
-          <li><a href="#">Order History</a></li>
-          <li><a href="#">Payment Methods</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-  
-      <div class="about-section">
-        <h3>About Us</h3>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Return Policy</a></li>
-          <li><a href="#">Site Map</a></li>
-        </ul>
-      </div>
-  
-      <div class="contact-section">
-        <h3>Contact Us</h3>
-        <p><i class="fas fa-map-marker-alt"></i> Kureekkadu, Ernakulam, Kerala</p>
-        <p><i class="fas fa-phone-alt"></i> +91-86065 70657</p>
-        <p><i class="fas fa-clock"></i> Mon - Sat / 9:00AM - 6:00PM</p>
-      </div>
+        <div class="logo-section">
+            <img src="./images/chembakamicon.jpeg">
+            <!-- <h2>CHEMPAKAM</h2>
+            <p>By Reshma</p> -->
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook"><img src="./images/f.jpeg"></i></a>
+                <a href="#"><i class="fab fa-twitter"><img src="./images/twitr.jpeg"></i></a>
+                <a href="#"><i class="fab fa-linkedin"><img src="./images/in.jpeg"></i></a>
+                <a href="#"><i class="fab fa-instagram"><img src="./images/cam.jpeg"></i></a>
+                <a href="#"><i class="fab fa-pinterest"><img src="./images/p.jpeg"></i></a>
+            </div>
+            <p>&copy; All rights reserved by Chempakam, Cochin, India.</p>
+        </div>
+        <div class="footer-column">
+            <h3>SOLUTIONS</h3>
+            <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Track Your Order</a></li>
+                <li><a href="#">Order History</a></li>
+                <li><a href="#">Payment Methods</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>ABOUT US</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Site Map</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>CONTACT US</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Kureekkadu, Ernakulam, Kerala</p>
+            <p><i class="fas fa-phone"></i> +91-86065 70657</p>
+            <p><i class="fas fa-clock"></i> Mon - Sat / 9:00AM - 6:00PM</p>
+        </div>
     </div>
-  </footer>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</footer>
 
-    
-    
+    <!-- Bootstrap and jQuery JS -->
+    <script src="/bootstrap/jss/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
+-------------------------------------

@@ -57,3 +57,101 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
+---------------
+.container{
+    height: 80vh;
+  }
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+  }
+  
+  .contact-item {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .second_sec{
+    background-color: rgb(241, 221, 224);
+    height: 80vh;
+    width: 1000px;
+  }
+  .first_sec h3{
+    margin-left: 390px;
+  }
+  .first_sec{
+    margin-top: 100px;
+  }
+  .first_sec button{
+    border: 1px solid gray;
+    color: gray;
+  }
+  ---------------
+  
+
+.image-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+----------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #161616;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex-basis: 20%;
+  margin: 10px 0;
+}
+
+.logo-section h2 {
+  font-family: 'Georgia', serif;
+  font-size: 30px;
+  color: #ffdf00;
+}
+
+.logo-section p {
+  color: #d1a54b;
+}
+
+.logo-section .social-media a {
+  color: #ffffff;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 20px;
+  font-size: 16⬤
