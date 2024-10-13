@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+     /* border-bottom: 4px solid orange; */
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-family: 'Georgia', serif;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    width: 20px;
+    height: 20px;
+}
+
+.user-options img {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+--------------------------
+
+
+
+
+---------------------------------
+
+/* Style the container holding the image */
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  /* Style the image */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; /* Add a border around the image */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+  }
+---------------------------------
+
+
+.curated-banner {
+    background-color: #111; /* Black background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding around the text */
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    width: 100%;
+}
+
+p {
+    margin: 0; /* No margin on paragraph */
+}
+----------------------------------------
+
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.connect-with-us {
+    flex: 1;
+    max-width: 300px;
+}
+
+.connect-with-us form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.connect-with-us input {
+    padding: 8px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.connect-with-us button {
+    padding: 8px 12px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.connect-with-us button:hover {
+    background-color: #555;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.useful-links,
+.products {
+    flex: 1;
+    max-width: 300px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .connect-with-us, .useful-links, .products {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
