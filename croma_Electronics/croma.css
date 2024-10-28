@@ -62,8 +62,107 @@ header {
     cursor: pointer;
 }
 --------------------------
+/*carousal*/
 
+.container6 {
+    max-width: 80%;
+    max-height: 80%;
+    margin-left: 10%;
+    overflow: hidden;
+    /* background-color: #e74c3c; */
+    padding: 20px;
+}
 
+h1 {
+    margin-bottom: 20px;
+}
+
+.event-slider {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    scrollbar-color: #888 #eee;
+    scrollbar-width: thin;
+}
+
+.event-slider::-webkit-scrollbar {
+    height: 8px;
+}
+
+.event-slider::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.event-slider::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+.event-cards {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 18%;
+    position: relative;
+    /* background-color: aquamarine; */
+    height: 400px;
+}
+
+.event-cards img {
+    width: 100%;
+    height: 65%;
+    display: block;
+    object-fit: cover;
+}
+
+.event-date {
+    position: absolute;
+    bottom: 30%; 
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.event-infos {
+    padding: 10px;
+    position: absolute;
+    top: 70%; 
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.event-infos h2 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.event-infos p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+.eventdate{
+    position: absolute;
+    bottom: 30%; 
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
 
 
 ---------------------------------
